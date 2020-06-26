@@ -1,22 +1,3 @@
-// import React from 'react';
-// import Menu from '../../components/menu/Menu';
-// //import ToDo from '../../components/to-do/To-do';
-// import Navbar from '../../components/myNavbar/Navbar';
-// import './home.css'
-
-// function Home() {
-//   return (  
-//     <div className="row">
-//       <Navbar />
-//       <Menu />
-//      {/*  <ToDo /> */}
-//     </div>
-  
-//   );
-// }
-
-// export default Home;
-
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from '../../components/myNavbar/Navbar';
