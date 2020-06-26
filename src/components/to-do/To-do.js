@@ -32,9 +32,7 @@ function ToDo() {
       </CardColumns>
       
       <CardColumns className="row bg-primary text-white m-2">
-        <div className="col-3 d-flex justify-content-center align-items-center offset-1"><Button onClick={handleShow}><i className="fa fa-plus fa-lg" ></i></Button></div>        
-        <div className="col-6 d-flex justify-content-center align-items-center"><Card.Title>Nueva tarea</Card.Title>
-          </div>         
+        <Button variant="primary" size="lg" block onClick={handleShow}><i className="fa fa-plus fa-lg" > </i> Nueva Tarea</Button>     
       </CardColumns>      
 
       <Modal show={show} onHide={handleClose} animation={false}>
