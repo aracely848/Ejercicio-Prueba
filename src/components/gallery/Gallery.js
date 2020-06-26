@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardColumns} from 'react-bootstrap';
-import './gallery.css';
 
 
 function Gallery() {
